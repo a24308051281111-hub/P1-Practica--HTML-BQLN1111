@@ -1,0 +1,77 @@
+<!-- Bretado Quiroz Lia Natalia 24308051281111 -->
+<!DOCTYPE html> <!-- Con esto le decimos al navegador que estamos usando HTML5 -->
+<html lang="en"> <!-- Lenguaje de la pagina -->
+<head> <!-- Configuracion de la pagina, lo que no se ve en pantalla -->
+    <meta charset="UTF-8"> <!-- Esta linea permite al navegador agregar caracteres especiales -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Es para que la pagina se adapte a diferentes pantallas -->
+    <title>Tipos de listas en HTML</title> <!-- Titulo en la pestaña de la ventana -->
+</head> <!-- Cerramos el encabezado -->
+<body> <!-- Cuerpo de la pagina -->
+    <h1>Tipos de listas</h1> <!-- Titulo principal -->
+    <h2>Listas ordenadas</h2> <!-- Subtitulo -->
+    <p>Una lista ordenada es una serie de elementos los cuales  <!-- Parrafo -->
+        tendran una numeracion de acuerdo al numeros de elementos.
+    </p> <!-- Fin del parrafo -->
+    <ol> <!-- Lista numerada -->
+        <li>Luna Arias </li> <!-- Elemento -->
+        <li>Franco Andrea</li> <!-- Elemento -->
+        <li>Granados Evelyn</li> <!-- Elemento -->
+    </ol> <!-- Fin de lista numerada -->
+    <h2>Listas no ordenadas</h2> <!-- Subtitulo -->
+    <p>Las listas no ordenadas no utilizan ninguna numeracion delante  <!-- Inicio del parrafo -->
+        de cada item sino un pequeño elemento grafico
+    </p> <!-- Fin del parrafo -->
+    <ul> <!-- Lista con viñetas -->
+        <li>C</li> <!-- Elemento -->
+        <li>C++</li> <!-- Elemento -->
+        <li>Python</li> <!-- Elemento -->
+    </ul> <!-- Fin de lista con viñetas -->
+    <h2>Lista de definiciones</h2> <!-- Subtitulo -->
+    <p>Se utiliza para asociar un termino y la definicion del mismo</p> <!-- Parrafo explicativo -->
+    <dl> <!-- Lista de conceptos -->
+        <dt>C++</dt> <!-- Concepto -->
+        <dd> <!-- Definicion -->
+            Es un lenguaje de programacion, diseñado a mediados de los años
+            1980 como extension del lenguaje de programacion C.
+        </dd> <!-- Fin de definicion -->
+        <dt>Java</dt> <!-- Concepto -->
+        <dd> <!-- Definicion -->
+            Es un lenguaje de programacion orientado a objetos desarrollado
+            por Sun Microsystem a principios de los 90.
+        </dd> <!-- Fin de definicion -->
+        <dt>JavaScript</dt> <!-- Concepto -->
+        <dd> <!-- Definicion -->
+            Es un lenguaje interpretado, es decir que no requiere compilacion,
+            utilizado principalmente en paginas web, con una sintaxis similar
+            al lenguaje de programacion C.
+        </dd> <!-- Fin de definicion -->
+    </dl> <!-- Fin de lista de conceptos -->
+    <h2>Listas anidadas</h2> <!-- Subtitulo -->
+    <p>En HTML nos permite insertar una lista dentro de otra lista, se pueden <!-- Inicio del parrafo -->
+        anidar diferentes tipos de lista de acuerdo al requerimiento
+    </p> <!-- Fin del parrafo -->
+    <ol> <!-- Lista numerada principal -->
+        <li>Argentina <!-- Elemento padre -->
+            <ul> <!-- Lista interna con viñetas -->
+                <li>Buenos aires</li> <!-- Sub-elemento -->
+                <li>La plata</li> <!-- Sub-elemento -->
+                <li>Mendoza</li> <!-- Sub-elemento -->
+            </ul> <!-- Fin de lista interna -->
+        </li> <!-- Fin de elemento padre -->
+        <li>España <!-- Elemento padre -->
+            <ul> <!-- Lista interna con viñetas -->
+                <li>Barcelona</li> <!-- Sub-elemento -->
+                <li>Madrid</li> <!-- Sub-elemento -->
+                <li>Sevilla</li> <!-- Sub-elemento -->
+            </ul> <!-- Fin de lista interna -->
+        </li> <!-- Fin de elemento padre -->
+        <li>Mexico <!-- Elemento padre -->
+            <ul> <!-- Lista interna con viñetas -->
+                <li>Chihuahua</li> <!-- Sub-elemento -->
+                <li>Cd. Juarez</li> <!-- Sub-elemento -->
+                <li>Hermosillo</li> <!-- Sub-elemento -->
+            </ul> <!-- Fin de lista interna -->
+        </li> <!-- Fin de elemento padre -->
+    </ol> <!-- Fin de lista numerada principal -->
+</body> <!-- Cerramos el cuerpo -->
+</html> <!-- Cerramos el documento HTML -->
