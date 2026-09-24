@@ -1,0 +1,98 @@
+<!DOCTYPE html> <!-- Con esto le decimos al navegador que estamos usando HTML5 -->
+<html lang="en"> <!-- Lenguaje de la pagina -->
+
+<head> <!-- Configuracion de la pagina, lo que no se ve en pantalla -->
+    <meta charset="UTF-8"> <!-- Esta linea permite al navegador agregar caracteres especiales -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Es para que la pagina se adapte a diferentes pantallas -->
+    <title>Tablas en HTML</title> <!-- Titulo en la pestaña de la ventana -->
+</head> <!-- Cerramos el encabezado -->
+
+<body> <!-- Cuerpo de la pagina -->
+    <h1>Tipos de tablas</h1> <!-- Titulo principal -->
+    <p>El objetivo fundamental de las tablas en HTML sera <!-- Inicio del parrafo -->
+        mostrar una serie de datos en forma ordenada,
+        organizado en filas y columnas
+    </p> <!-- Fin del parrafo -->
+    <p>Para la creacion de una tabla intervienen diferentes elementos:</p> <!-- Parrafo -->
+    <dl> <!-- Lista de definicion -->
+        <dt>Table</dt> <!-- Termino a definir -->
+        <dd> <!-- Descripcion del termino -->
+            Es la marca de comienzo de la tabla. Este elemento requiere
+            la marca de cierre.
+        </dd> <!-- Fin de descripcion -->
+        <dt>Tr</dt> <!-- Termino a definir -->
+        <dd> <!-- Descripcion del termino -->
+            Es la marca de comienzo de una fila. Esta marca debe estar
+            dentro del elemento table
+        </dd> <!-- Fin de descripcion -->
+        <dt>Td</dt> <!-- Termino a definir -->
+        <dd> <!-- Descripcion del termino -->
+            Es la marca de comeinzo de una celda. Esta marca debe estar
+            dentro del elemento tr
+        </dd> <!-- Fin de descripcion -->
+    </dl> <!-- Fin de la lista -->
+    <h2>Ejemplo</h2> <!-- Subtitulo -->
+    <table border="1"> <!-- Tabla con borde -->
+        <tr> <!-- Fila de la tabla -->
+            <td>Ciudad de Mexico</td> <!-- Celda de datos -->
+            <td>9.2 millones</td> <!-- Celda de datos -->
+        </tr> <!-- Fin de fila -->
+        <tr> <!-- Fila de la tabla -->
+            <td>Guadalajara</td> <!-- Celda de datos -->
+            <td>4.1 millones</td> <!-- Celda de datos -->
+        </tr> <!-- Fin de fila -->
+        <tr> <!-- Fila de la tabla -->
+            <td>Monterrey</td> <!-- Celda de datos -->
+            <td>3.9 millones</td> <!-- Celda de datos -->
+        </tr> <!-- Fin de fila -->
+    </table> <!-- Fin de la tabla -->
+    <h2>Tabla con encabezado</h2> <!-- Subtitulo -->
+    <p>La caracteristicas de esta tabla es que se le agrega a las celdas <!-- Parrafo con explicacion -->
+        el encabezado correspondiente, esto solo aplicaria a la primera
+        fila de la tabla con la etiqueta <em>th</em>, las demas filas
+        usarian la etiqueta <em>td</em> con normalidad.
+    </p> <!-- Fin del parrafo -->
+    <table border="1"> <!-- Tabla con borde -->
+        <tr> <!-- Fila de encabezado -->
+            <th>Ciudad</th> <!-- Celda de encabezado en negrita -->
+            <th>Cantidad de habitantes</th> <!-- Celda de encabezado en negrita -->
+        </tr> <!-- Fin de fila -->
+        <tr> <!-- Fila de datos -->
+            <td>Ciudad de Mexico</td> <!-- Celda de datos -->
+            <td>9.2 millones</td> <!-- Celda de datos -->
+        </tr> <!-- Fin de fila -->
+        <tr> <!-- Fila de datos -->
+            <td>Guadalajara</td> <!-- Celda de datos -->
+            <td>4.1 millones</td> <!-- Celda de datos -->
+        </tr> <!-- Fin de fila -->
+        <tr> <!-- Fila de datos -->
+            <td>Monterrey</td> <!-- Celda de datos -->
+            <td>3.9 millones</td> <!-- Celda de datos -->
+        </tr> <!-- Fin de fila -->
+    </table> <!-- Fin de la tabla -->
+    <h2>Tabla con titulo</h2> <!-- Subtitulo -->
+    <p>Para insertar un titulo a la tabla debemos incorporar el elemento caption <!-- Parrafo explicativo -->
+        inmediatamente despues de abrir la etiqueta <em>table</em>.
+    </p> <!-- Fin del parrafo -->
+    <table border="1"> <!-- Tabla con borde -->
+        <caption>Poblacion de las ciudades mas concurridas de Mexico</caption> <!-- Titulo superior de la tabla -->
+        <tr> <!-- Fila de encabezado -->
+            <th>Ciudad</th> <!-- Celda de encabezado -->
+            <th>Cantidad de habitantes</th> <!-- Celda de encabezado -->
+        </tr> <!-- Fin de fila -->
+        <tr> <!-- Fila de datos -->
+            <td>Ciudad de Mexico</td> <!-- Celda de datos -->
+            <td>9.2 millones</td> <!-- Celda de datos -->
+        </tr> <!-- Fin de fila -->
+        <tr> <!-- Fila de datos -->
+            <td>Guadalajara</td> <!-- Celda de datos -->
+            <td>4.1 millones</td> <!-- Celda de datos -->
+        </tr> <!-- Fin de fila -->
+        <tr> <!-- Fila de datos -->
+            <td>Monterrey</td> <!-- Celda de datos -->
+            <td>3.9 millones</td> <!-- Celda de datos -->
+        </tr> <!-- Fin de fila -->
+    </table> <!-- Fin de la tabla -->
+</body> <!-- Cerramos el cuerpo -->
+
+</html> <!-- Cerramos el documento HTML -->
